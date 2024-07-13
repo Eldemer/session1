@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contener{
+    width: 80%;
+    margin: auto;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(75, 66, 54,0);
+    position: fixed;
+    z-index: 999;
+}
+.logo{
+margin-left: 180px;
+}
+.logo a{
+    text-decoration: none;
+    color: gold;
+}
+.logo a:hover{
+    color: cornflowerblue;
+}
+.link{
+    width: 27%;
+    margin-left: 800px;
+}
+.link a{
+    text-decoration: none;
+    color: goldenrod;
+    margin-right: 50px;
+}
+.link a:hover{
+    color: cornflowerblue;
+}
+
+.home  {
+position: relative;
+width: 100%;
+height: 100vh;
+background-image: url(../images/background.jpg);
+background-size: cover;
+}
+
+.content{
+    position: absolute;
+    width: 27%;
+    left: 550px;
+    top:300px
+}
+.content h2{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.content p{
+    color: white;
+    margin-top: 10px;
+}
+
+.content button{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(99, 158, 9);
+    padding: 10px;
+    height: 40px;
+    margin-top:10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.layout{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.intro{
+    margin-top:100px;
+}
+.intro h3{
+    text-align: center;
+    word-spacing: 6px;
+    margin-bottom: 10px;
+}
+.intro p{
+    text-align: center;
+}
+
+.images img{
+    width: 600px;
+    padding: 30px;
+}
+
+.meating{
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.meating h4{
+    text-align: center;
+    color:cadetblue;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.girls{    
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.meating .girl1 ,.girl2 ,.girl3 ,.girl4{
+    width: 100%; 
+    margin-right: 30px;
+}
+
+.girls img{
+width: 100%;
+}
+
+.girls h3{
+    color:rgb(44, 4, 125);
+    text-align: center;
+    text-transform:capitalize ;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.girls p{
+    color:rgb(186, 169, 135);
+    text-align: center;
+}
+
+.form{
+    border: 1px solid rgba(0,0,0,0);
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/form.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 40px; 
+     
+}
+
+
+.form .content-form{
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue ;
+    opacity: 0.9;
+    margin-top: 65px;
+}
+.form h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom:40px;
+    opacity: 0.5;
+}
+.form input{
+    border: 0;
+    border-radius: 3px;
+}
+.form .input1{
+     width: 40%;
+     padding: 10px;
+     margin-right:36px;
+     margin-left: 50px;
+     margin-bottom: 20px;
+}
+.form .input2{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.form .input3{
+    width: 650px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form .input4{
+    width: 650px;
+    margin-left: 50px;
+    height: 100px;
+}
+.submet{
+    background-color: rgb(164, 234, 95);
+    margin-left: 45%;
+    padding: 10px;
+    width: 80px;
+    border-radius: 4px;
+    color:white;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+.footer{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-bottom: 40px;
+}
+.div1{
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-right: 100px;
+}
+
+.div2{
+    /* border: 1px solid rgb(32, 8, 8); */
+    width: 30%;
+    margin-right: 100px;
+
+}
+
+.div3{
+    /* border: 1px solid rgb(204, 117, 117); */
+    width: 30%;
+    margin-right: 10px;
+}
+
+.footer h4 {
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.div2 p{
+    padding-left: 60px;
+}
+.div3 i{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 90px;
+}
